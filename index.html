@@ -1,6 +1,92 @@
 <html>
-<header><title>Soon</title></header>
-<body>
-TBA
-</body>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" >
+  <link rel="stylesheet" href="./css/custom.css" >
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous">
+  </script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous">
+  </script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous">
+  </script>
+
+  <header>
+    <title>Jack Williams</title>
+  </header>
+  
+  <body class="bg-light">
+    <div class="container">
+
+      
+      <nav class="navbar navbar-expand-lg border border-dark navbar-light rounded my-4 bg-white">
+        <a class="navbar-brand" href=".">Jack Williams</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pubs">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="card my-4" id="about">
+        <div class="card-body">
+          <h5 class="card-title">About</h5>
+          <hr class="my-4">
+          This is some text within a card body.
+        </div>
+      </div>
+
+      <div class="card my-4" id="pubs">
+        <div class="card-body">
+          <h5 class="card-title">Publications</h5>
+
+          <hr class="my-4">
+
+          <h6 class="font-italic"> The Root Cause of Blame: Contracts for Intersection and Union Types </h6>
+          <p>Jack Williams, J. Garrett Morris, and Philip Wadler </br>
+            Proc. ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2018)  </br>
+            <i>To appear.</i>
+          </p>
+
+          <hr class="my-4">
+          
+          <h6 class="font-italic"> Mixed Messages: Measuring Conformance and Non-Interference in TypeScript </h6>
+          <p>
+            Jack Williams, J. Garrett Morris, Philip Wadler, and Jakub Zalewski </br>
+            31st European Conference on Object-Oriented Programming (ECOOP 2017) </br>
+            Availability: <a href="http://drops.dagstuhl.de/opus/volltexte/2017/7264/pdf/LIPIcs-ECOOP-2017-28.pdf">LIPIcs</a>,
+            <a href="./papers/ecoop-mixed-messages.pdf">PDF</a>
+          </p>
+          
+        </div>
+      </div>
+
+      <div class="card my-4" id="contact">
+        <div class="card-body">
+          <h5 class="card-title">Contact</h5>
+          <hr class="my-4">
+          This is some text within a card body.
+        </div>
+      </div>
+
+      
+    </div>
+  </body>
 </html>
