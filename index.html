@@ -23,132 +23,102 @@
     <title>Jack Williams</title>
   </header>
   
-  <body class="bg-light">
-    <div class="container">
-      
-      <nav class="navbar navbar-expand-lg border navbar-light rounded my-4 bg-white">
-        <a class="navbar-brand" href=".">Jack Williams</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pubs">Publications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#code">Code</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <body class="fill" style="background: #F4F6F6;">
+    <div class="container main-content-panel fill">
 
-      <div class="card my-4" id="about">
-        <div class="card-body">
-          <h5 class="card-title">About</h5>
-          <hr class="my-4">
-
-          <p>
-            I'm a fourth (final) year PhD student at Edinburgh working
-            with Philip Wadler on contracts and gradual typing. My
-            work covers contract semantics, blame, and how contracts
-            and gradual typing can be used in practice.
-          </p>
-          <p>
-            My wider interests span various topics related to
-            functional programming such as type systems, computational
-            effects, and spreadsheets.
-          </p>
-          
-        </div>
-      </div>
-
-      <div class="card my-4" id="pubs">
-        <div class="card-body">
-          <h5 class="card-title">Publications</h5>
-
-          <hr class="my-4">
-
-          <h6 class="font-italic font-weight-bold">The Root Cause of Blame: Contracts for Intersection and Union Types</h6>
-          <p>Jack Williams, J. Garrett Morris, and Philip Wadler</br>
-            Proc. ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2018)  </br>
-            Availability: <a href="https://doi.org/10.1145/3276504">ACM</a>,
-            <a href="papers/oopsla-root-cause-of-blame.pdf">PDF</a>
-          </p>
-
-          <hr class="my-4">
-          
-          <h6 class="font-italic font-weight-bold" id="pub-mixed-messages">Mixed Messages: Measuring Conformance and Non-Interference in TypeScript</h6>
-          <p>
-            Jack Williams, J. Garrett Morris, Philip Wadler, and Jakub Zalewski</br>
-            31st European Conference on Object-Oriented Programming (ECOOP 2017)</br>
-          </p>
-          <p>
-            Availability: <a href="http://drops.dagstuhl.de/opus/volltexte/2017/7264/pdf/LIPIcs-ECOOP-2017-28.pdf">LIPIcs</a>,
-            <a href="papers/ecoop-mixed-messages.pdf">PDF</a>
-          </p>
-          
-        </div>
-      </div>
-
-      <div class="card my-4" id="code">
-        <div class="card-body">
-          <h5 class="card-title">Code</h5>
-          <hr class="my-4">
-          <p>
-            See my <a href="https://github.com/jack-williams">GitHub</a>
-            for code that I have written and repositories that I
-            contribute to.
-          </p>
-          <p>
-            Evaluated Software Artifacts:
-          </p>
-          <ul>
-            <li>
-              <a href="http://dx.doi.org/10.4230/DARTS.3.2.8">
-                Mixed Messages: Measuring Conformance and Non-Interference in TypeScript
-              </a>
-            </li>
-            <li>
-              <a href="https://www.npmjs.com/package/contracts-ts">
-                contracts-ts
-              </a>
-            </li>
-          </ul>
-        </div>
+      <div class="card-body">
+        <h3 class="card-title"><a style="text-decoration: none;" class="main-colour"  href="https://www.jackw.io">Jack Williams</a></h3>
       </div>
       
-      <div class="card my-4" id="contact">
+      <div  id="about">
         <div class="card-body">
-          <h5 class="card-title">Contact</h5>
-          <hr class="my-4">
+          <p>
+            I am currently a Postdoc at Microsoft Research working on
+            the <a target="_blank"
+            href="https://www.microsoft.com/en-us/research/project/calc-intelligence/">Calc
+            Intelligence</a> project. My research is aimed at
+            enriching spreadsheet programming with a focus on safety
+            and extensibility.
+          </p>
+          
+          <p>
+            Previously I was a PhD student at the University of
+            Edinburgh working with
+            <a class="plain-link" target="_blank"
+               href="https://homepages.inf.ed.ac.uk/wadler">Philip
+              Wadler</a>
+            on contracts and gradual typing. My work
+            includes contract semantics, blame, and the empirical
+            evaluation of gradual typing.
+          </p>
+          
+          <p>
+            <span class="main-colour font-weight-bold">Email:</span>
+            jw ~at~ jackw ~dot~ io
+          </p>
+          <p>
+            <span class="main-colour font-weight-bold">Profiles:</span>
+            <a class="" href="https://github.com/jack-williams">GitHub</a>
+            <a class="" href="https://www.linkedin.com/in/jack-williams-6a064333/">LinkedIn</a>
+          </p>
+        </div>
+      </div>
 
-          <div class="container">
-            <div class="row">
-              
-              <div class="col">
-                <p class="font-weight-bold">Email:</p>
-                <p>jack.williams ~at~ ed.ac.uk (Research)</p>
-                <p>jw ~at~ jackw.io</p>
-              </div>
+      <div id="pubs">
+        <div class="card-body">
+          <h5 class="main-colour card-title">Publications</h5>
 
-              <div class="col">
-                <p class="font-weight-bold">Profiles:</p>
-                <p>
-                  <a class="font-weight-bold" href="https://www.linkedin.com/in/jack-williams-6a064333/">LinkedIn</a>
-                </p>
-                <p>
-                  <a class="font-weight-bold" href="https://github.com/jack-williams">GitHub</a>
-                </p>
-              </div>
-            </div> 
-          </div>
+          <span class="font-weight-bold">The Root Cause of Blame: Contracts for Intersection and Union Types (OOPSLA 2018)</span>
+          <p>Jack Williams,
+            <a class="plain-link" target="_blank" href="https://jgbm.github.io">
+              J. Garrett Morris</a>,
+            and
+            <a class="plain-link" target="_blank"
+               href="https://homepages.inf.ed.ac.uk/wadler">Philip
+              Wadler</a>
+</br>
+Availability: <a target="_blank" href="https://doi.org/10.1145/3276504">ACM</a>,
+<a target="_blank" href="papers/oopsla-root-cause-of-blame.pdf">PDF</a>
+          </p>
+
+          <span class="font-weight-bold" id="pub-mixed-messages">Mixed Messages: Measuring Conformance and Non-Interference in TypeScript (ECOOP 2017)</span>
+          <p>
+            Jack Williams,
+            <a class="plain-link" target="_blank" href="https://jgbm.github.io">
+              J. Garrett Morris</a>,
+            <a class="plain-link" target="_blank"
+               href="https://homepages.inf.ed.ac.uk/wadler">Philip
+              Wadler</a>,
+            and Jakub Zalewski</br>
+            Availability: <a target="_blank" href="http://drops.dagstuhl.de/opus/volltexte/2017/7264/pdf/LIPIcs-ECOOP-2017-28.pdf">LIPIcs</a>,
+            <a target="_blank" href="papers/ecoop-mixed-messages.pdf">PDF</a>
+          </p>          
+        </div>
+      </div>
+
+      <div id="code">
+        <div class="card-body">
+          <h5 class="main-colour card-title">Code</h5>
+          <p>
+            My GitHub page can be found <a target="_blank"
+                                           href="https://github.com/jack-williams">here</a>; I
+            occasionally contribute to <a target="_blank"
+                                          href="https://github.com/Microsoft/TypeScript">TypeScript</a>.
+            Any code associated with my research is best obtained from the
+            artifact repository. See the following
+            links: <a target="_blank"
+                      href="http://dx.doi.org/10.4230/DARTS.3.2.8"> Mixed
+              Messages: Measuring Conformance and Non-Interference in
+              TypeScript
+            </a> and 
+            <a target="_blank" href="https://dl.acm.org/citation.cfm?id=3276927">
+              contracts-ts</a>.
+          </p>
+        </div>
+      </div>
+
+      <div id="links">
+        <div class="card-body">
         </div>
       </div>
     </div>
